@@ -50,7 +50,7 @@ def allowed_file(filename):
 #         return redirect(url_for('home'))
 
 
-@app.route('/main')
+@app.route('/')
 def home():
     return render_template('index.html')
 
